@@ -27,7 +27,7 @@ namespace localstorage_to_s3bucket.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("server=194.59.164.1;port=3306;user=u159536146_aarvidev;password=I6t?0z|o$B44ikC#3zJa#L>YYYj|tflvvr634^$^%FG;database=u159536146_aarvidev");
+                optionsBuilder.UseMySQL();
             }
         }
 
